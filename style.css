@@ -129,6 +129,7 @@ img {
     vertical-align: middle; /* Alinha verticalmente a imagem no texto */
     max-width: 100% !important;
     height: 100% !important;
+    text-align: left;
     
 }
 #spot img {
