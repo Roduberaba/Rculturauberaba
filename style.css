@@ -19,7 +19,9 @@ h1 {
     margin: 0;
     font-size: 2em;
     text-align: center;
+    
 }
+
 h2 {
     margin: 0;
     font-size: 2em;
@@ -41,6 +43,11 @@ section {
 #Fotologo img, .slidemarketing img, #locutores img, #spot img {
     max-width: 100% !important;
     height: auto !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80vw; /* A imagem ocupará 80% da largura da tela */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
 }
 #porqueescolher, #contato, #programa, #spot{
     font-size: 18px;
@@ -103,4 +110,28 @@ margin-bottom: 60px;
 img {
     max-width: 100%; /* Define a largura máxima da imagem como 100% do contêiner pai */
     height: auto; /* Mantém a proporção da imagem */
+    
 }
+#programa2 {
+    background-image: url('fundocultura.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Para cobrir todo o elemento */
+    /* outras propriedades de estilo, como cor do texto, tamanho da fonte, etc. */
+    background-position:  right;
+    background-size: 500px;
+    font-size: 18px;
+    background-color: #ecf0f1;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10x 0;
+    vertical-align: middle; /* Alinha verticalmente a imagem no texto */
+    max-width: 100% !important;
+    height: 100% !important;
+    
+}
+#spot img {
+    width: 80vw; /* A imagem ocupará 80% da largura da tela */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+  }
